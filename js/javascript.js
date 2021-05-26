@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $(".size-small").click(function(event){
+        $(".active-small").toggle();
+        $(".size-small").toggleClass("active-size");
+    });
+    $(".size-medium").click(function(event){
+        $(".active-medium").toggle();
+        $(".size-medium").toggleClass("active-size");
+    });
+    $(".size-large").click(function(event){
+        $(".active-large").toggle();
+        $(".size-large").toggleClass("active-size");
+    });
+}); 
